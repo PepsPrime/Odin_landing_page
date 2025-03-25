@@ -7,7 +7,6 @@ body {
 
 /* Styles properties */
 .header {
-    border: 2px double red;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -34,10 +33,17 @@ body {
 
 /* Positionning properties */
 
+.header, .first {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    
+}
+
 .header {
     display: flex;
     flex-direction: row;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 60px;
 }
 
 .linklist {
@@ -45,3 +51,11 @@ body {
     margin-left: auto;
     gap: 20px;
 }
+
+/* First section */
+
+.first {
+    border: 2px double red;
+    display: flex;
+}
+
