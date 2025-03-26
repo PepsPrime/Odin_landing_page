@@ -1,7 +1,13 @@
+/* Importing Roboto font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
     font-family: 'Roboto';
     display: flex;
     flex-direction: column;
+    margin: 0;
     
 }
 
@@ -18,6 +24,7 @@ body {
 
 .header, .first {
         background-color: #1F2937;
+        
 }
 
 .title {
@@ -29,6 +36,14 @@ body {
 .titlesubtext {
     font-size: 18px;
     color: #E5e7eb;
+}
+
+.description {
+    color: #E5e7eb;
+}
+.signup-button {
+    background-color: #3882F6;
+    border-radius: 8px;
 }
 
 /* Positionning properties */
@@ -50,8 +65,23 @@ body {
 /* First section */
 
 .first {
-    border: 2px double red;
     display: flex;
     padding: 50px 12.5%;
+    gap: 40px;
+    justify-content: space-between;
 }
 
+.description {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.first-image {
+    min-width: 50%;
+}
+.signup-button {
+    width: fit-content;
+    padding: 5px 30px;
+}
