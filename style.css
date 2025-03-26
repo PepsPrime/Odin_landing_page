@@ -33,17 +33,12 @@ body {
 
 /* Positionning properties */
 
-.header, .first {
-    padding-left: 12.5%;
-    padding-right: 12.5%;
-    
-}
+
 
 .header {
     display: flex;
     flex-direction: row;
-    padding-top: 16px;
-    padding-bottom: 60px;
+    padding: 20px 12.5% 50px;
 }
 
 .linklist {
@@ -57,5 +52,6 @@ body {
 .first {
     border: 2px double red;
     display: flex;
+    padding: 50px 12.5%;
 }
 
