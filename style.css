@@ -12,6 +12,7 @@ body {
 }
 
 /* Styles properties */
+
 .header {
     font-size: 24px;
     color: #F9FAF8;
@@ -23,7 +24,7 @@ body {
 }
 
 .header, .first {
-        background-color: #1F2937;
+    background-color: #1F2937;
         
 }
 
@@ -41,9 +42,28 @@ body {
 .description {
     color: #E5e7eb;
 }
+
 .signup-button {
     background-color: #3882F6;
     border-radius: 8px;
+}
+
+
+.second-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.img {
+    border-color: blue;
+    border-radius: 5px;
+
+}
+
+.imgsubtext {
+    font-size: 18px;
+    color:#1F2937
 }
 
 /* Positionning properties */
@@ -81,7 +101,15 @@ body {
 .first-image {
     min-width: 50%;
 }
+
 .signup-button {
     width: fit-content;
     padding: 5px 30px;
+}
+
+/* Second section */
+
+.second {
+    display: flex;
+    flex-direction: column;
 }
