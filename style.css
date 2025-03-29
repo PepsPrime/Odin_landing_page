@@ -68,7 +68,7 @@ body {
 
 /* Positionning properties */
 
-
+/* First section */
 
 .header {
     display: flex;
@@ -82,7 +82,6 @@ body {
     gap: 20px;
 }
 
-/* First section */
 
 .first {
     display: flex;
@@ -112,4 +111,17 @@ body {
 .second {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.imglist {
+    display: flex;
+    width: 66%;
+    gap: 40px;
+    text-align: center;
+}
+
+.second-title {
+    padding: 50px 0;
 }
