@@ -65,7 +65,21 @@ body {
     font-size: 18px;
     color:#1F2937
 }
+.third {
+    background-color: #E5e7eb;
+        
+}
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+}
 /* Positionning properties */
 
 /* First section */
@@ -125,3 +139,17 @@ body {
 .second-title {
     padding: 50px 0;
 }
+
+/* Third/quote section */
+
+.third {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    gap: 20px;
+}
+
+.author {
+    align-self: flex-end;
+}
+
