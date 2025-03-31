@@ -65,6 +65,8 @@ body {
     font-size: 18px;
     color:#1F2937
 }
+
+/* Third section styles */
 .third {
     background-color: #E5e7eb;
         
@@ -131,9 +133,12 @@ body {
 
 .imglist {
     display: flex;
-    width: 66%;
     gap: 40px;
     text-align: center;
+}
+
+.second-image {
+    max-width: 200px;
 }
 
 .second-title {
@@ -145,11 +150,49 @@ body {
 .third {
     display: flex;
     flex-direction: column;
-    padding: 100px 300px;
+    padding: 125px 300px;
     gap: 20px;
+    align-items: center;
 }
+
 
 .author {
-    align-self: flex-end;
+    text-align: end;
+    font-size: 24px;
+    color:#1F2937
 }
 
+/* Fourth section */
+
+.fourth {
+    padding: 50px 12.5%;
+}
+
+.signup-banner {
+
+    background-color: #3882F6;
+    border-radius: 8px;
+    
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlebanner {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.titlebanner > .titlesubtext {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.signup-banner > .signup-button {
+    color: #E5e7eb;
+    border: 2px double white;
+    height: fit-content;
+    align-self: flex-end;
+}
